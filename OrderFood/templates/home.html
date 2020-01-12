@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 450px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+</style>
+</head>
+<body>
+
+<form action="cart" method="get">
+{#{% csrf_token %}#}
+{% block content %}
+
+    <h2>Order Food </h2> <button >View cart</button>
+
+    <div class="row">
+    {% for o1 in dishes %}
+
+          <div class="column" >
+             <div class="card">
+              <img src={{ o1.img }} alt="Avatar" style="width:100%">
+              <div class="container">
+                <h4><b>{{ o1.name }}</b></h4>
+                <p>{{ o1.price }}</p>
+                <label>
+                <input type="checkbox" name="foodorder" value={{ o1.name }}/>
+                <span> add to cart </span>
+                </label>
+              </div>
+             </div>
+          </div>
+
+    {% endfor %}
+    </div>
+
+{#            <div class="column" >#}
+{#                <div class="card">#}
+{#                    <img src={{ ord.ord2.img }} alt="Avatar" style="width:100%">#}
+{#                    <div class="container">#}
+{#                        <h4><b>{{ ord.ord2.name }}</b></h4>#}
+{#                        <p>{{ ord.ord2.price }}</p>#}
+{#                        <label>#}
+{#                        <input type="checkbox" name="foodorder" value="utappam"/>#}
+{#                        <span>add to cart</span>#}
+{#                        </label>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#    </div>#}
+
+{#    </div>#}
+{#    </div>#}
+{##}
+{#    <br>#}
+{#    <div class="row">#}
+{#      <div class="column" >#}
+{#        <div class="card" style="margin-top:120px">#}
+{#        <img src={{ ord.ord3.img }} alt="Avatar" style="width:100%">#}
+{#        <div class="container">#}
+{#            <h4><b>{{ ord.ord3.name }} </b></h4>#}
+{#            <p>{{ord.ord3.price}}</p>#}
+{#            <label>#}
+{#            <input type="checkbox" name="foodorder" value="idli"/>#}
+{#            <span> add to cart </span>#}
+{#            </label>#}
+{#        </div>#}
+{#      </div>#}
+{##}
+{##}
+{##}
+{#      </div>#}
+{#        <div class="column" >#}
+{#        <div class="card" style="margin-top:120px">#}
+{#        <img src={{ ord.ord4.img }} alt="Avatar" style="width:100%">#}
+{#        <div class="container">#}
+{#            <h4><b>{{ ord.ord4.name }}</b></h4>#}
+{#            <p>{{ ord.ord4.price }}</p>#}
+{#            <label>#}
+{#            <input type="checkbox" name="foodorder" value="panipuri"/>#}
+{#            <span> add to cart </span>#}
+{#            </label>#}
+{#        </div>#}
+{#        </div>#}
+{#        </div>#}
+{#      </div>#}
+{#    </div>#}
+
+
+    </form>
+{% endblock %}
+
+</body>
+</html>

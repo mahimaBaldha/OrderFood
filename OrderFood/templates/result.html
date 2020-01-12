@@ -1,0 +1,62 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+</style>
+</head>
+<body>
+
+    {% for ord in Orderlist %}
+    <div class="row">
+          <div class="column">
+            <img src={{ord.img}} alt="Snow" style="width:30%">
+          </div>
+          <div class="column" style="width:30%">
+            <h4><b>{{ord.name}}</b></h4>
+          </div>
+          <div class="column" style="width:30%">
+            <p>{{ord.price}}</p>
+          </div>
+    </div>
+
+ {% endfor %}
+
+<td>Total bill is : {{ bill }}</td>
+{#<br><br><br>#}
+{#    <a href="confirm?price={{ bill }}" style="margin-left: 80%; color: #0c5460">Confirm Order</a>#}
+{#<button value="orderNow" style="margin-left: 80%; color: #0c5460">Confirm Order</button>#}
+{#<button value="cancel" style="color: red">Cancel</button>#}
+{##}
+<br><br><br>
+<form action="confirm?t={{ bill }}" method="post">
+    Enter Address : <input type="text"  style="height: 10%; width: 100%" name="address"/>
+    {% csrf_token %}
+    <input type="submit" value="Confirm Order" style="margin-left: 82%; color: #0c5460"/>
+{#    <a value="cancel" style="color: red">Cancel</a>#}
+    <a href="/cancel" style="color: red">cancel</a>
+</form>
+{#<button value="cancel" style="color: red">Cancel</button>#}
+
+</body>
