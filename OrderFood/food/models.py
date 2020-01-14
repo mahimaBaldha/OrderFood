@@ -10,9 +10,15 @@ class items(models.Model):
     ord_price = models.PositiveIntegerField(default=0)
     ord_address = models.TextField()
 
+    def __str__(self):
+        return self.name
+
 
 class order(models.Model):
     # id = models.PositiveIntegerField(default=0)
     name = models.TextField(null=False)
     img = models.TextField()
     price = models.PositiveIntegerField(default=0)
+
+    def __str__(self):
+        return self.name

@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <title>register</title>
+</head>
+<body>
+    <form action="/signup" method="post">
+
+        {% csrf_token %}
+
+        Enter first name : <input type="text" name="first_name"><br>
+        Enter last name : <input type="text" name="last_name"><br>
+        Enter user name : <input type="text" name="username"><br>
+        Enter email id : <input type="text" name="email"><br>
+        Enter password : <input type="password" name="password"><br>
+
+        <input type="submit" value="signup" name="register">
+    </form>
+</body>
+</html>

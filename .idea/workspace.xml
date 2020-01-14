@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b430eb8e-c6c2-4d55-a336-d0d538edca27" name="Default Changelist" comment="" />
+    <list default="true" id="b430eb8e-c6c2-4d55-a336-d0d538edca27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/OrderFood/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderFood/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/food/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/food/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/food/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/food/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/food/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/food/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/food/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/food/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/templates/confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/templates/confirm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +44,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1W4G9xi9Jwt76qF9X6SjaICPmLj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,7 +56,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -54,22 +70,21 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.manage">
-    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="OrderFood" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="OrderFood.conf.staging" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/food" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
-      <option name="PARAMETERS" value="runserver" />
+      <option name="PARAMETERS" value="runserver 8001" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -105,11 +120,6 @@
       <item itemvalue="Django server.OrderFood" />
       <item itemvalue="Python.manage" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.manage" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -134,6 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578401305205</updated>
       <workItem from="1578401319475" duration="70984000" />
+      <workItem from="1578895815454" duration="20562000" />
     </task>
     <servers />
   </component>
@@ -145,54 +156,58 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="117" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1578505588121" />
-    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578643358569">
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578979882737">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1578643358569" />
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1578979882737" />
     <state x="432" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578568931115">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="432" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1578568931115" />
-    <state x="474" y="221" key="EnvironmentVariablesDialog" timestamp="1578579560785">
+    <state x="474" y="221" key="EnvironmentVariablesDialog" timestamp="1578979740132">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="474" y="221" key="EnvironmentVariablesDialog/0.0.1440.900@0.0.1440.900" timestamp="1578579560785" />
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1578570428627">
+    <state x="474" y="221" key="EnvironmentVariablesDialog/0.0.1440.900@0.0.1440.900" timestamp="1578979740132" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1578982545828">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578570428627" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1578570428625">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578982545828" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1578982545827">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578570428625" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1578570428624">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578982545827" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1578982545827">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578570428624" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1578570428626">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578982545827" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1578982545828">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578570428626" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1578570428629">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578982545828" />
+    <state width="1398" height="229" key="GridCell.Tab.1.bottom" timestamp="1578981965009">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578570428629" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1578570428628">
+    <state width="1398" height="229" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578981965008" />
+    <state width="1398" height="229" key="GridCell.Tab.1.center" timestamp="1578981965008">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1578570428628" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1578570428627">
+    <state width="1398" height="229" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1578981965008" />
+    <state width="1398" height="229" key="GridCell.Tab.1.left" timestamp="1578981965007">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1578570428627" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1578570428629">
+    <state width="1398" height="229" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1578981965007" />
+    <state width="1398" height="229" key="GridCell.Tab.1.right" timestamp="1578981965008">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1578570428629" />
+    <state width="1398" height="229" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1578981965008" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1578579505919">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578579505919" />
+    <state x="267" y="194" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1578981163850">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="267" y="194" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1578981163850" />
     <state x="286" y="114" width="689" height="708" key="find.popup" timestamp="1578579931631">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -201,15 +216,16 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1578503848561" />
-    <state x="385" y="162" width="670" height="738" key="search.everywhere.popup" timestamp="1578579834671">
+    <state x="385" y="162" width="670" height="738" key="search.everywhere.popup" timestamp="1578982057379">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="162" width="670" height="738" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1578579834671" />
+    <state x="385" y="162" width="670" height="738" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1578982057379" />
     <state x="385" y="170" width="670" height="669" key="search.everywhere.popup/0.23.1440.816@0.23.1440.816" timestamp="1578468147002" />
     <state x="385" y="171" width="670" height="673" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1578463461072" />
     <state x="385" y="172" width="670" height="676" key="search.everywhere.popup/0.23.1440.825@0.23.1440.825" timestamp="1578410470982" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/OrderFood$manage.coverage" NAME="manage Coverage Results" MODIFIED="1578982433653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/OrderFood$views.coverage" NAME="manage Coverage Results" MODIFIED="1578570356171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/food" />
   </component>
 </project>

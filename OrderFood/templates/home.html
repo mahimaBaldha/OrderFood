@@ -36,12 +36,14 @@
 </head>
 <body>
 
+<a href="/dologin">LOGIN</a>
+<a href="/register">Sign up</a>
+
 <form action="cart" method="get">
 {#{% csrf_token %}#}
-{% block content %}
 
-    <h2>Order Food </h2> <button >View cart</button>
-
+    <h2>Order Food </h2>
+    <button >View cart</button>
     <div class="row">
     {% for o1 in dishes %}
 
@@ -62,61 +64,6 @@
     {% endfor %}
     </div>
 
-{#            <div class="column" >#}
-{#                <div class="card">#}
-{#                    <img src={{ ord.ord2.img }} alt="Avatar" style="width:100%">#}
-{#                    <div class="container">#}
-{#                        <h4><b>{{ ord.ord2.name }}</b></h4>#}
-{#                        <p>{{ ord.ord2.price }}</p>#}
-{#                        <label>#}
-{#                        <input type="checkbox" name="foodorder" value="utappam"/>#}
-{#                        <span>add to cart</span>#}
-{#                        </label>#}
-{#                    </div>#}
-{#                </div>#}
-{#            </div>#}
-{#    </div>#}
-
-{#    </div>#}
-{#    </div>#}
-{##}
-{#    <br>#}
-{#    <div class="row">#}
-{#      <div class="column" >#}
-{#        <div class="card" style="margin-top:120px">#}
-{#        <img src={{ ord.ord3.img }} alt="Avatar" style="width:100%">#}
-{#        <div class="container">#}
-{#            <h4><b>{{ ord.ord3.name }} </b></h4>#}
-{#            <p>{{ord.ord3.price}}</p>#}
-{#            <label>#}
-{#            <input type="checkbox" name="foodorder" value="idli"/>#}
-{#            <span> add to cart </span>#}
-{#            </label>#}
-{#        </div>#}
-{#      </div>#}
-{##}
-{##}
-{##}
-{#      </div>#}
-{#        <div class="column" >#}
-{#        <div class="card" style="margin-top:120px">#}
-{#        <img src={{ ord.ord4.img }} alt="Avatar" style="width:100%">#}
-{#        <div class="container">#}
-{#            <h4><b>{{ ord.ord4.name }}</b></h4>#}
-{#            <p>{{ ord.ord4.price }}</p>#}
-{#            <label>#}
-{#            <input type="checkbox" name="foodorder" value="panipuri"/>#}
-{#            <span> add to cart </span>#}
-{#            </label>#}
-{#        </div>#}
-{#        </div>#}
-{#        </div>#}
-{#      </div>#}
-{#    </div>#}
-
-
-    </form>
-{% endblock %}
-
+</form>
 </body>
 </html>
