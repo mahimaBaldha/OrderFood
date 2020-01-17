@@ -3,6 +3,7 @@ from __future__ import unicode_literals
 
 import random
 
+import self as self
 from django.contrib.auth.models import User
 from django.shortcuts import render
 
@@ -45,38 +46,37 @@ def dologin(request):
 
 def now_login(request):
     print("In post")
-    if request == "POST":
-        print("request came in post!!")
-        u_name = request.POST.get['username']
-        pwd = request.POST.get['password']
 
-        context = {'users': User.objects.all()}
-        user = User()
-        user = context.get('users')
+    print("request came in post!!")
+    u_name = request.POST.get['username']
+    pwd = request.POST.get['password']
 
-        print("request came!!")
+    context = {'users': User.objects.all()}
+    user = User()
+    user = context.get('users')
+
+    print("request came!!")
+
+    for u in user:
+        print(u.username)
 
         for u in user:
-            print(u.username)
+            if u.username != u_name:
+                msg = "user is not registered"
+                return render(request, "signup.html", {'message': msg})
+            else:
+                if u.username == u_name:
+                    if (pwd != u.password):
+                        msg = "password incorrect"
+                        return render(request, "login.html", {'message': msg})
+                    else:
+                        msg = "user logged in"
+                        request.session['user'] = u
+                        fav = request.session.get('user')
+                        print(fav)
+                        return render(request, "home.html", {'user': u})
 
-    #     for u in user:
-    #         if u.username != u_name:
-    #             msg = "user is not registered"
-    #             return render(request, "signup.html", {'message': msg})
-    #         else:
-    #             if u.username == u_name:
-    #                 if (pwd != u.password):
-    #                     msg = "password incorrect"
-    #                     return render(request, "login.html", {'message': msg})
-    #                 else:
-    #                     msg = "user logged in"
-    #                     request.session['user'] = u
-    #                     fav = request.session.get('user')
-    #                     print(fav)
-    #                     return render(request, "home.html", {'user': u})
-    # else:
-
-        return render(request, "home.html")
+    return render(request, "home.html")
 
 
 

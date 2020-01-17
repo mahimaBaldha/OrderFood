@@ -2,18 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b430eb8e-c6c2-4d55-a336-d0d538edca27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OrderFood/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderFood/templates/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/decorator-4.4.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/decorator-4.4.1.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/decorator-4.4.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/decorator-4.4.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/decorator-4.4.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/decorator-4.4.1.dist-info/pbr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/decorator-4.4.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/decorator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/public-2019.4.13.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/public-2019.4.13.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/public-2019.4.13.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/public-2019.4.13.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/public-2019.4.13.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/public/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/self-2019.4.13.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/self-2019.4.13.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/self-2019.4.13.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/self-2019.4.13.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/self-2019.4.13.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/self/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderFood/food/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/food/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderFood/food/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/food/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderFood/food/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/food/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OrderFood/food/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/food/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderFood/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderFood/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderFood/templates/confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/templates/confirm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderFood/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderFood/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +58,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1W4G9xi9Jwt76qF9X6SjaICPmLj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -144,22 +158,25 @@
       <option name="presentableId" value="Default" />
       <updated>1578401305205</updated>
       <workItem from="1578401319475" duration="70984000" />
-      <workItem from="1578895815454" duration="20562000" />
+      <workItem from="1578895815454" duration="24968000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="320" y="117" key="#Inspections" timestamp="1578505588121">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="117" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1578505588121" />
-    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578979882737">
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579001820095">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1578979882737" />
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1579001820095" />
     <state x="432" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578568931115">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -204,6 +221,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578579505919" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578988192634">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1578988192634" />
     <state x="267" y="194" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1578981163850">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
