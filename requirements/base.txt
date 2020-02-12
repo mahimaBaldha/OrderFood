@@ -1,7 +1,7 @@
 --trusted-host pypi.python.org
 --trusted-host files.pythonhosted.org
 --trusted-host pypi.org
-Django==1.9.13
+Django==1.11.28
 django-admin-tools==0.5.2
 django-braces==1.10.0
 django-cache-machine==0.9.1
